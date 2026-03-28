@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conectaí - O Coração da Sua Cidade</title>
+    
+    <!-- Design System - Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Instrument+Serif:italic&display=swap" rel="stylesheet">
+    
+    <!-- Icons & Animation -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <link rel="icon" type="image/png" href="placeholder-icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Modern Header -->
+    <nav class="nav-minimal" id="nav">
+        <div class="container nav-wrapper">
+            <a href="#" class="brand">
+                <div class="brand-icon"><i class="ph-fill ph-leaf"></i></div>
+                <span>Conectaí</span>
+            </a>
+            
+            <div class="nav-links">
+                <div class="nav-menu">
+                    <a href="#funcionalidades">O App</a>
+                    <a href="#experiencia">Experiência</a>
+                    <a href="#contato">Suporte</a>
+                </div>
+
+                <div class="nav-actions">
+                    <a href="../#home" target="_blank" class="btn-link">Entrar</a>
+                    <a href="../#register" class="btn-cta-nav">Criar Conta Grátis</a>
+                </div>
+            </div>
+            
+            <button class="menu-btn" id="menu-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Split Hero Section -->
+    <header class="hero-premium">
+        <div class="container hero-grid">
+            <div class="hero-info animate__animated animate__fadeInLeft">
+                <div class="tag-status">
+                    <span class="dot"></span> 
+                    Explore. Descubra. Preserve.
+                </div>
+                <h1 class="hero-h1">Conectando <span class="serif">Cidades</span>,<br>Inspirando <span class="highlight">Gente</span>.</h1>
+                <p class="hero-p">Descubra o melhor da sua cidade em dois modos inteligentes: explore o turismo local ou fortaleça a economia da sua comunidade. Tudo em um só app.</p>
+                
+                <div class="hero-actions">
+                    <a href="../#home" class="btn-main">Começar Experiência <i class="ph-bold ph-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="hero-media animate__animated animate__fadeInRight">
+                <div class="media-container">
+                    <div class="floating-ui card-1">
+                        <i class="ph-fill ph-calendar text-blue-500"></i>
+                        <span>Reserva Confirmada!</span>
+                    </div>
+                    <div class="floating-ui card-2">
+                        <i class="ph-fill ph-shopping-cart text-green-500"></i>
+                        <span>Pedido Recebido</span>
+                    </div>
+                    <div class="app-window">
+                        <div class="app-header">
+                            <div class="app-dots"><span></span><span></span><span></span></div>
+                            <div class="app-search">conectai.com.br</div>
+                        </div>
+                        <div class="app-body">
+                            <div class="mock-nav"></div>
+                            <div class="mock-hero"></div>
+                            <div class="mock-grid">
+                                <span></span><span></span><span></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="funcionalidades" class="features-minimal">
+        <div class="container">
+            <div class="features-header">
+                <h2>Recursos <span class="serif">Essenciais</span></h2>
+                <p>O Conectaí integra serviços que realmente fazem a diferença no seu dia a dia.</p>
+            </div>
+            
+            <div class="features-bento-grid">
+                <div class="bento-item bento-large">
+                    <div class="bento-content">
+                        <div class="bento-icon"><i class="ph-bold ph-storefront"></i></div>
+                        <h3>Showcase de Negócios</h3>
+                        <p>Crie uma vitrine digital para o seu negócio local em minutos. Cardápios, fotos e contato facilitado pelo WhatsApp.</p>
+                    </div>
+                    <div class="bento-visual vitrine-mock"></div>
+                </div>
+                
+                <div class="bento-item bento-medium">
+                    <div class="bento-icon"><i class="ph-bold ph-calendar-check"></i></div>
+                    <h3>Booking Inteligente</h3>
+                    <p>Calendário de reservas direto no app para pousadas e experiências.</p>
+                </div>
+                
+                <div class="bento-item bento-medium">
+                    <div class="bento-icon"><i class="ph-bold ph-first-aid"></i></div>
+                    <h3>Utilidade Pública</h3>
+                    <p>Postos de saúde, farmácias e serviços emergenciais sempre à mão.</p>
+                </div>
+
+                <div class="bento-item bento-small">
+                    <div class="bento-icon"><i class="ph-bold ph-users-three"></i></div>
+                    <h3>Modo Comunidade</h3>
+                    <p>Serviços e trocas entre moradores locais.</p>
+                </div>
+
+                <div class="bento-item bento-small">
+                    <div class="bento-icon"><i class="ph-bold ph-compass"></i></div>
+                    <h3>Modo Turismo</h3>
+                    <p>Roteiros e experiências para visitantes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Regional Highlights (Carousel) -->
+    <section id="destaques" class="highlights section">
+        <div class="container relative">
+            <div class="section-header align-left">
+                <h2 class="section-title">Recomendado <span class="serif">para você</span></h2>
+                <div class="carousel-nav">
+                    <button class="nav-btn prev" aria-label="Anterior"><i class="ph-bold ph-caret-left"></i></button>
+                    <button class="nav-btn next" aria-label="Próximo"><i class="ph-bold ph-caret-right"></i></button>
+                </div>
+            </div>
+            
+            <div class="carousel-container">
+                <div class="carousel-track" id="carousel-track">
+                    <!-- Card 1 -->
+                    <div class="carousel-card card-dark hover-shine">
+                        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&fit=crop');"></div>
+                        <div class="card-overlay">
+                            <div class="card-tag">Hospedagem</div>
+                            <h3>Pousada Recanto das Águas</h3>
+                            <p>Um refúgio de paz com vista para a serra e café da manhã colonial.</p>
+                            <a href="../#home" class="btn-card">Ver Detalhes</a>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="carousel-card card-dark hover-shine">
+                        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=600&fit=crop');"></div>
+                        <div class="card-overlay">
+                            <div class="card-tag">Gastronomia</div>
+                            <h3>Restaurante Sabores do Mar</h3>
+                            <p>Os melhores frutos do mar frescos e uma carta de vinhos exclusiva.</p>
+                            <a href="../#home" class="btn-card">Ver Detalhes</a>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="carousel-card card-dark hover-shine">
+                        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&fit=crop');"></div>
+                        <div class="card-overlay">
+                            <div class="card-tag">Aventura</div>
+                            <h3>Trilha da Cachoeira Escondida</h3>
+                            <p>Explore a natureza intocada com nossos guias locais certificados.</p>
+                            <a href="../#home" class="btn-card">Ver Detalhes</a>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="carousel-card card-dark hover-shine">
+                        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&fit=crop');"></div>
+                        <div class="card-overlay">
+                            <div class="card-tag">Lazer</div>
+                            <h3>Passeio de Barco ao Pôr do Sol</h3>
+                            <p>Uma experiência mágica para casais e famílias curtirem o horizonte.</p>
+                            <a href="../#home" class="btn-card">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experiencia" class="exp-section">
+        <div class="container exp-grid">
+            <div class="exp-image">
+                <div class="img-wrapper">
+                    <img src="conectai_natureza.jpg" alt="Conectaí Natureza">
+                    <div class="img-decoration"></div>
+                </div>
+            </div>
+            <div class="exp-text">
+                <span class="tag-accent">Propósito Único</span>
+                <h2>Sinta-se em Casa, <br><span class="serif">Em Qualquer Lugar</span>.</h2>
+                <p>Nossa missão é democratizar o acesso à informação local, fornecendo uma tecnologia de ponta para quem visita e um canal de vendas poderoso para quem mora.</p>
+                <ul class="check-list">
+                    <li><i class="ph-bold ph-check"></i> Design Mobile-First Ultra Rápido</li>
+                    <li><i class="ph-bold ph-check"></i> Sem Instalação Necessária</li>
+                    <li><i class="ph-bold ph-check"></i> 100% Gratuito para Usuários</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Dark CTA -->
+    <section class="final-cta">
+        <div class="container cta-box">
+            <div class="cta-content">
+                <h2>Pronto para se <span class="highlight-alt">Conectar?</span></h2>
+                <p>Junte-se a centenas de pessoas que estão transformando a forma como interagem com a cidade.</p>
+                <div class="cta-btns">
+                    <a href="../#home" class="btn-dark">Acessar WebApp Agora</a>
+                    <a href="../#register" class="btn-outline">Criar Conta Comercial</a>
+                </div>
+            </div>
+            <div class="cta-pattern"></div>
+        </div>
+    </section>
+
+    <!-- Clean Footer -->
+    <footer class="footer-minimal">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <div class="brand">
+                    <div class="brand-icon"><i class="ph-fill ph-leaf"></i></div>
+                    <span>Conectaí</span>
+                </div>
+                <p>O futuro da conexão local é agora.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="#"><i class="ph ph-facebook-logo"></i></a>
+                    <a href="#"><i class="ph ph-envelope"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Plataforma</h4>
+                    <a href="../#home">WebApp</a>
+                    <a href="../#map">Ver Mapa</a>
+                    <a href="#funcionalidades">Recursos</a>
+                </div>
+                <div class="link-group">
+                    <h4>Empresa</h4>
+                    <a href="../#about">Sobre Nós</a>
+                    <a href="mailto:contato@conectai.com">Contato</a>
+                    <a href="../#terms">Termos</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Conectaí. Crafted with passion.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
